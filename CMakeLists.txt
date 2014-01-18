@@ -1,0 +1,5 @@
+PROJECT(cpplab)
+SET(CMAKE_VERBOSE_MAKEFILE ON)
+
+ADD_SUBDIRECTORY(src/lib bin/lib)
+ADD_SUBDIRECTORY(src/test bin/test)
